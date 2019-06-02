@@ -1,0 +1,22 @@
+{
+  "name": "osg_project_1",
+  "version": "1.0.0",
+  "description": "This is test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadiyorAbdukhashimov/osg_project_1.git"
+  },
+  "author": "MadiyorAbdukhashimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadiyorAbdukhashimov/osg_project_1/issues"
+  },
+  "homepage": "https://github.com/MadiyorAbdukhashimov/osg_project_1#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
