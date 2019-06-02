@@ -6733,6 +6733,7 @@ template {
 
 html {
   background-color: beige;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -6744,8 +6745,9 @@ body {
   width: 1200px;
 }
 
-header nav {
-  position: absolute;
+#bg_in {
+  background-image: linear-gradient(125deg, #5270bc 0%, #9938a0, #e00084);
+  height: 800px;
 }
 
 header nav img {
@@ -6759,7 +6761,6 @@ header ul {
 
 header ul li {
   font-size: 16px;
-  font-family: "Raleway";
   color: white;
   font-weight: lighter;
   line-height: 1.2;
@@ -6769,5 +6770,77 @@ header ul li {
 
 header li a {
   color: white;
+}
+
+#front_page {
+  height: 800px;
+  color: white;
+  text-align: center;
+}
+
+#front_page h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-top: 80px;
+}
+
+#front_page p {
+  line-height: 1.556;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+#front_page .laptop-holder {
+  position: relative;
+}
+
+#front_page .laptop-holder img {
+  margin-top: 70px;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+#six {
+  position: absolute;
+  left: 245px;
+  top: 305px;
+}
+
+#five {
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}
+
+#four {
+  position: absolute;
+  right: 250px;
+  top: 300px;
+  z-index: 6;
+}
+
+#three {
+  position: absolute;
+  right: 250px;
+  top: 460px;
+}
+
+#two {
+  position: absolute;
+  right: 225px;
+  top: 530px;
+  z-index: 6;
+}
+
+#one {
+  position: absolute;
+  left: 250px;
+  top: 540px;
+  z-index: 6;
 }
 /*# sourceMappingURL=main.css.map */

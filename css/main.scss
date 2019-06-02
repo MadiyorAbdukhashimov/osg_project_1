@@ -16,6 +16,7 @@
 
 html {
     background-color: beige;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -27,10 +28,17 @@ body {
     width: 1200px;
 }
 
+#bg_in {
+    background-image: linear-gradient(
+        125deg,
+        rgb(82, 112, 188) 0%,
+        rgb(153, 56, 160),
+        rgb(224, 0, 132)
+    );
+    height: 800px;
+}
+
 header {
-    nav {
-        position: absolute;
-    }
     nav img {
         margin-left: 97px;
         margin-top: 8px;
@@ -40,7 +48,6 @@ header {
     }
     ul li {
         font-size: 16px;
-        font-family: "Raleway";
         color: rgb(255, 255, 255);
         font-weight: lighter;
         line-height: 1.2;
@@ -52,3 +59,98 @@ header {
         color: rgb(255, 255, 255);
     }
 }
+
+// 1st section
+#front_page {
+    height: 800px;
+    color: white;
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 1.15;
+        margin-top: 80px;
+    }
+
+    p {
+        line-height: 1.556;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .laptop-holder {
+        position: relative;
+    }
+
+    .laptop-holder img {
+        margin-top: 70px;
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+// start of icons
+
+// twitter icon
+#six {
+
+    position: absolute;
+    left: 245px;
+    top: 305px;
+
+}
+
+// basketball icon
+#five {
+
+    position: absolute;
+    top: 500px;
+    left: 300px;
+
+}
+
+// Naugat Icon
+#four {
+
+    position: absolute;
+    right: 250px;
+    top: 300px;
+    z-index: 6;
+
+}
+
+// Snapchat icon
+#three {
+
+    position: absolute;
+    right: 250px;
+    top: 460px;
+
+}
+
+// Be icon
+#two {
+
+    position: absolute;
+    right: 225px;
+    top: 530px;
+    z-index: 6;
+
+}
+
+// whatsapp icon
+#one {
+
+    position: absolute;
+    left: 250px;
+    top: 540px;
+    z-index: 6;
+
+}
+
+// end of icons
+
